@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon - Our Services</title>
 </head>
-
 <header> 
+    <!--Navigation / primary  menu-->
     <nav class="nav-bar">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <a href="#search-engine-optimization">Search Engine Optimization</a>
+        <a href="#social-media-marketing">Social Media Marketing</a> 
         <a href="#online-reputation-management">Online Reputation Management</a>
-        <a href="#social-media-marketing">Social Media Marketing</a>
+        <a href="#search-engine-optimization">Search Engine Optimization</a>
     </nav>
 </header>
-
 <body>
-<!--  <section class="nav-bar"> 
-        <h1>Hori<span class="seo">seo</span>n</h1>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-    </section> -->
-    
-    <section class="hero"></section>
-  
-    <section class="content"> <!-- merge the stylings for the content in CSS. use one class. And then class the img to float appropriately-->
-        <section class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="desk with laptop, stationery, magnifying glass, coffee cup and notebook">
+    <!--Hero Image in the background of this section.-->
+    <section class="hero" alt="" ></section> 
+    <!--Service List and descriptions-->
+    <section class="services" aria-label="Services">
+        <!--Service: Search Engine Optimization-->
+        <section id="search-engine-optimization" class="services-content"> 
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="desk with laptop, stationery and a coffee mug.">
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
@@ -36,19 +29,19 @@
                 your visibility and find the right customers for your business.
             </p>
         </section>
-
-        <section class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="person holding a smartphone, using a laptop on a page saying 'Reputation'">
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an
-                internet connection to say whatever they want about your business. Online Reputation Management gives
-                you the control over what potential customers see when they search for your business.
-            </p>
+        <!--Service: Online Reputation Management-->
+        <section id="online-reputation-management" class="services-content">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A person holding a smartphone and using a laptop which is on a page called 'Reputation'.">
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an
+                    internet connection to say whatever they want about your business. Online Reputation Management gives
+                    you the control over what potential customers see when they search for your business.
+                </p>
         </section>
-
-        <section class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A team at a desk on laptops interacting with a table full of social media related paper props">
+        <!--Service: Social Media Marketing-->
+        <section id="social-media-marketing" class="services-content">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A team working on laptops and looking at papers on the table.">
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you
@@ -57,40 +50,41 @@
             </p>
         </section>
     </section>
-
-    <aside class="benefits"> <!-- merge the stylings for the benefits in CSS. use one class. And then class the img to float appropriately-->
-        <section class="benefit-lead"> 
+    <!--Side panel of benefits-->
+    <aside class="benefits" aria-label="Benefits"> 
+        <!--Benefit: Lead Generation-->
+        <section class="benefits-content"> 
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="Lead Generation">
+            <img src="./assets/images/lead-generation.png" alt="">
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
                 to your website.
             </p>
         </section>
-        <section class="benefit-brand">
+        <!--Benefit: Brand Awareness-->
+        <section class="benefits-content">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="Brand Awareness">
+            <img src="./assets/images/brand-awareness.png" alt="">
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
         </section>
-        <section class="benefit-cost">
+        <!--Benefit: Cost Management-->
+        <section class="benefits-content">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="Cost Management">
+            <img src="./assets/images/cost-management.png" alt="">
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
         </section>
     </aside>
-   
     <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
 </body>
-
 </html>
