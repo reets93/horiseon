@@ -12,6 +12,8 @@ To improve the code I:
 - updated 'div' tags to appropriate semantic tags where possible
 - added comments to assist with clarity
 
+Link to the final deployed page: 
+https://reets93.github.io/module1-challenge-horiseon/ 
 
 ## Installation
 
@@ -21,7 +23,8 @@ N/A
 ## Usage
 This project is to be used for understanding how to refactor code, and improve accessibility. 
 
-No instructions for use. 
+Link to the final deployed page: 
+https://reets93.github.io/module1-challenge-horiseon/ 
 
 Screenshot of the final outcome. 
 ![alttext](assets/images/RF-challenge1-screenshot.png)
