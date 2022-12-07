@@ -13,7 +13,7 @@ To improve the code I:
 - added comments to assist with clarity
 
 Link to the final deployed page: 
-https://reets93.github.io/module1-challenge-horiseon/ 
+https://reets93.github.io/horiseon/ 
 
 ## Installation
 
