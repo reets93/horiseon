@@ -1,4 +1,4 @@
-# Module 1 Challenge - Horiseon Services - Code Refactoring
+# Horiseon Services - Code Refactoring
 
 ## Description
 
